@@ -227,7 +227,7 @@ export default class Menu extends Component {
                     />
                   </View>
                   <TouchableOpacity
-
+                    style={{width:"75%"}}
                     onPress={() => {
 
                       console.log("item.navOptionName " + item.navOptionName);
@@ -261,7 +261,7 @@ export default class Menu extends Component {
                       fontSize: 15,
                       color: '#fff',
                       flex: 1,
-                      marginRight: 30
+                     
                     }}>
                       {item.navOptionName}
                     </Text>
